@@ -1,19 +1,19 @@
 bs:
   devise:
     confirmations:
-      confirmed: Vaš račun je potvrđen.
-      send_instructions: U roku nekoliko minuta ćete primiti e-mail s uputama za potvrdu Vašeg računa.
-      send_paranoid_instructions: Ukoliko se Vaša email adresa nalazi u našoj bazi u roku od nekoliko minuta ćete primiti e-mail s uputama kako potvrditi Vaš račun.
+      confirmed: Tvoj račun je potvrđen.
+      send_instructions: U roku nekoliko minuta ćeš primiti e-mail s uputama za potvrdu računa.
+      send_paranoid_instructions: Ukoliko se tvoja email adresa nalazi u našoj bazi u roku od nekoliko minuta ćeš primiti e-mail s uputama za potvrdu računa.
     failure:
-      already_authenticated: Već ste prijavljeni.
-      inactive: Vaš račun još nije aktiviran.
+      already_authenticated: Već si prijavljen/na.
+      inactive: Tvoj račun još nije aktiviran.
       invalid: Neispravan e-mail ili lozinka.
-      last_attempt: Imate još jedan pokušaj prije nego Vaš račun bude zaključan.
-      locked: Vaš račun je zaključan.
+      last_attempt: Imaš još jedan pokušaj prije nego tvoj račun bude zaključan.
+      locked: Tvoj račun je zaključan.
       not_found_in_database: Neispravan e-mail ili lozinka.
-      timeout: Vrijeme trajanja Vaše sesije je isteklo. Molimo prijavite se ponovo.
-      unauthenticated: Za nastavak se morate prijaviti ili registrovati.
-      unconfirmed: Za nastavak morate potvrditi Vaš račun.
+      timeout: Vrijeme trajanja sesije je isteklo. Prijavi se ponovo.
+      unauthenticated: Za nastavak se moraš prijaviti ili registrovati.
+      unconfirmed: Za nastavak moraš potvrditi račun.
     mailer:
       confirmation_instructions:
         subject: Upute za potvrdu korisničkog računa
@@ -22,35 +22,35 @@ bs:
       unlock_instructions:
         subject: Upute za otključavanje korisničkog računa
     omniauth_callbacks:
-      failure: Nismo Vas u mogućnosti autorizirati sa %{kind} računom zbog "%{reason}".
+      failure: Nismo te u mogućnosti autorizirati sa %{kind} računom zbog "%{reason}".
       success: Uspješna autorizacija sa %{kind} računa.
     passwords:
-      no_token: Ne možete pristupiti ovoj stranici ako niste kliknuli na link u e-mailu za resetovanje lozinke.
-      send_instructions: U roku nekoliko minuta ćete primiti e-mail s uputama za resetovanje Vaše lozinke.
-      send_paranoid_instructions: Ukoliko se Vaša e-mail adresa nalazi u našoj bazi, u roku nekoliko minuta ćete primiti link za resetovanje lozinke.
-      updated: Vaša lozinka je uspješno promjenjena. Sad ste prijavljeni.
-      updated_not_active: Vaša lozinka je uspješno izmijenjena.
+      no_token: Ne možeš pristupiti ovoj stranici ako nisi kliknuo/la na link u e-mailu za resetovanje lozinke.
+      send_instructions: U roku nekoliko minuta ćeš primiti e-mail s uputama za resetovanje lozinke.
+      send_paranoid_instructions: Ukoliko se tvoja e-mail adresa nalazi u našoj bazi, u roku nekoliko minuta ćeš primiti link za resetovanje lozinke.
+      updated: Lozinka je uspješno promijenjena. Sad si prijavljen/na.
+      updated_not_active: Lozinka je uspješno izmijenjena.
     registrations:
-      destroyed: Pozdrav! Vaš račun je uspješno obrisan. Nadamo se da ćete se brzo vratiti.
-      signed_up: Dobrodošli! Uspješno ste se registrovali.
-      signed_up_but_inactive: Uspješno ste se registrovali. Nažalost, ne možete se prijaviti, jer Vaš račun još nije aktiviran.
-      signed_up_but_locked: Uspješno ste se registrovali. Nažalost, ne možete se prijaviti, jer Vam je račun zaključan.
-      signed_up_but_unconfirmed: Poruka s linkom za potvrdu je poslana na Vašu e-mail adresu. Molimo kliknite na link da aktivirate Vaš račun.
-      update_needs_confirmation: Uspješno ste ažurirali Vaš račun, ali trebamo potvrditi Vašu novu e-mail adresu. Molimo provjerite svoje sanduče i kliknite na link za potvrdu.
-      updated: Uspješno ste izmjenili Vaš račun.
+      destroyed: Pozdrav! Račun je uspješno obrisan. Nadamo se da ćeš se brzo vratiti.
+      signed_up: Dobrodošao/la! Uspješno si se registrovao/la.
+      signed_up_but_inactive: Uspješno si se registrovao/la. Nažalost, ne možeš se prijaviti, jer tvoj račun još nije aktiviran.
+      signed_up_but_locked: Uspješno si se registrovao/la. Nažalost, ne možeš se prijaviti, jer je tvoj račun zaključan.
+      signed_up_but_unconfirmed: Poruka s linkom za potvrdu je poslana na tvoju e-mail adresu. Klikni na link da aktiviraš račun.
+      update_needs_confirmation: Uspješno si ažurirao/la račun, ali trebamo potvrditi tvoju novu e-mail adresu. Provjeri sanduče i klikni na link za potvrdu.
+      updated: Uspješno si izmijenio/la račun.
     sessions:
-      already_signed_out: 
-      signed_in: Uspješno ste se prijavili.
-      signed_out: Uspješno ste se odjavili.
+      already_signed_out: Uspješno si se odjavio/la.
+      signed_in: Uspješno si se prijavio/la.
+      signed_out: Uspješno si se odjavio/la.
     unlocks:
-      send_instructions: U roku nekoliko minuta ćete primiti e-mail s uputama za otključavanje Vašeg računa.
-      send_paranoid_instructions: Ako Vaš račun postoji, na e-mail ćete u roku nekoliko minuta primiti upute kako ga otključati.
-      unlocked: Vaš račun je uspješno otključan. Molimo prijavite se.
+      send_instructions: U roku nekoliko minuta ćeš primiti e-mail s uputama za otključavanje računa.
+      send_paranoid_instructions: Ako tvoj račun postoji, na e-mail ćeš u roku nekoliko minuta primiti upute kako ga otključati.
+      unlocked: Račun je uspješno otključan. Prijavi se.
   errors:
     messages:
-      already_confirmed: je već potvrđen, molimo pokušajte se prijaviti
-      confirmation_period_expired: je trebao biti potvrđen tokom perioda %{period}, molimo tražite novi
-      expired: je istekao, molimo zatražite novi
+      already_confirmed: je već potvrđen, pokušaj se prijaviti
+      confirmation_period_expired: je trebao biti potvrđen tokom perioda %{period}, traži novi
+      expired: je istekao, zatraži novi
       not_found: nije pronađeno
       not_locked: nije zaključan
       not_saved:
